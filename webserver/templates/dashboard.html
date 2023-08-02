@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/dashboard.css">
+    <title>Transform</title>
+</head>
+<body>
+    
+    <h1 style="text-align: center;">Welcome to NLP based data migration.</h1>
+    <h2 style="text-align: center;">Transformation Phase</h2>
+    <h3 style="text-align: center;">Please select the NLP method.</h3>
+    <form action="http://localhost:5000/dashboard" method="post">
+<div class="cards">
+
+    <div class="card">
+      <div class="card__image-holder">
+        <img class="card__image" src="./src/img/openai.png" alt="wave" />
+      </div>
+      <div class="card-title">
+        <a href="#" class="toggle-info btn">
+          <span class="left"></span>
+          <span class="right"></span>
+        </a>
+        <h2>
+           Using OpenAi API
+            <small>Using GPT 2 and latest semantic checking</small>
+        </h2>
+      </div>
+      
+      <div class="card-flap flap1">
+        <div class="card-description">
+            At the moment, the score is very useful for ranking (we've seen it outperform many existing semantic ranking approaches). 
+        </div>
+        <div class="card-flap flap2">
+          <div class="card-actions">
+            <a href="#" class="btn" onclick="callDash('openai')">Integrate</a>
+            <!-- <input type="submit" class="login pull-left" value="Integrate" onclick="callDash('openai')"> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="card">
+      <div class="card__image-holder">
+        <img class="card__image" src="./src/img/spacy.png" alt="beach" />
+      </div>
+      <div class="card-title">
+        <a href="#" class="toggle-info btn">
+          <span class="left"></span>
+          <span class="right"></span>
+        </a>
+        <h2>
+            Using Spacy
+            <small>This model checks for similar datatypes among the attributes</small>
+        </h2>
+      </div>
+      <div class="card-flap flap1">
+        <div class="card-description">
+          Content
+        </div>
+        <div class="card-flap flap2">
+          <div class="card-actions">
+            <a href="#" class="btn" onclick="callDash('spacy')">Integrate</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="card">
+      <div class="card__image-holder">
+        <img class="card__image" src="./src/img/fuzz.png" alt="mountain" />
+      </div>
+      <div class="card-title">
+        <a href="#" class="toggle-info btn">
+          <span class="left"></span>
+          <span class="right"></span>
+        </a>
+        <h2>
+            Using Levinshtein
+            <small>Image from unsplash.com</small>
+        </h2>
+      </div>
+      <div class="card-flap flap1">
+        <div class="card-description">
+          This grid is an attempt to make something nice that works on touch devices. Ignoring hover states when they're not available etc.
+        </div>
+        <div class="card-flap flap2">
+          <div class="card-actions">
+            <a href="#" class="btn" onclick="callDash('leven')">Integrate</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="card">
+      <div class="card__image-holder">
+        <img class="card__image" src="./src/img/nltk.png" alt="field" />
+      </div>
+      <div class="card-title">
+        <a href="#" class="toggle-info btn">
+          <span class="left"></span>
+          <span class="right"></span>
+        </a>
+        <h2>
+            Using Root
+            <small>Image from unsplash.com</small>
+        </h2>
+      </div>
+      <div class="card-flap flap1">
+        <div class="card-description">
+          This grid is an attempt to make something nice that works on touch devices. Ignoring hover states when they're not available etc.
+        </div>
+        <div class="card-flap flap2">
+          <div class="card-actions">
+            <a href="#" class="btn" onclick="callDash('root')">Integrate</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="card">
+      <div class="card__image-holder">
+        <img class="card__image" src="./src/img/sequence.jpg" alt="water" />
+      </div>
+      <div class="card-title">
+        <a href="#" class="toggle-info btn">
+          <span class="left"></span>
+          <span class="right"></span>
+        </a>
+        <h2>
+            Common Substring
+            <small>Image from unsplash.com</small>
+        </h2>
+      </div>
+      <div class="card-flap flap1">
+        <div class="card-description">
+          This grid is an attempt to make something nice that works on touch devices. Ignoring hover states when they're not available etc.
+        </div>
+        <div class="card-flap flap2">
+          <div class="card-actions">
+            <a href="#" class="btn" onclick="callDash('ftest')">Integrate</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    
+  </div>
+    </form>
+  
+</body>
+
+  
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script src="./src/js/dashboard.js"></script>
+<script>
+ 
+async function postData(url = "", data = {}) {
+  const response = await fetch(url, {
+    method: "POST", 
+    mode: "no-cors", 
+    cache: "no-cache", 
+    credentials: "same-origin", 
+    headers: {
+      "Content-Type": "application/json",
+    },
+    redirect: "follow", 
+    referrerPolicy: "no-referrer", // no-referrer, *no-referrer-when-downgrade, origin, origin-when-cross-origin, same-origin, strict-origin, strict-origin-when-cross-origin, unsafe-url
+    body: JSON.stringify(data), 
+  });
+  // return response.json();
+}
+
+async function callDash(func="openai"){
+ await postData("http://127.0.0.1:5000/dashboard",{funcName:func})
+// console.log(res);
+window.location= "http://127.0.0.1:5500/webserver/templates/index.html"
+}
+
+</script>
+</html>

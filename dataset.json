@@ -1,0 +1,281 @@
+
+ {
+  "Name": "Rajat Thapar",
+  "Roll_no": 1,
+  "Phone_no": 8765432109,
+  "Address": "Powai, Mumbai, Maharashtra",
+  "School": "Delhi Public School,Mumbai",
+  "Grades": "A+"
+ }
+ {
+  "Name": "Vishav Jeet Singh",
+  "Roll_no": 2,
+  "Phone_no": 9876543210,
+  "Address": "Hauz Khas, New Delhi, Delhi",
+  "School": "Delhi Public School,Mumbai",
+  "Grades": "A"
+ }
+ {
+  "Name": "Shubam Pandita",
+  "Roll_no": 3,
+  "Phone_no": 7654232109,
+  "Address": "Chennai, Tamil Nadu",
+  "School": "Delhi Public School,Mumbai",
+  "Grades": "A+"
+ }
+ {
+  "Name": "Avinash Sharma",
+  "Roll_no": 4,
+  "Phone_no": 7654312100,
+  "Address": "Kharagpur, West Bengal",
+  "School": "Delhi Public School,Mumbai",
+  "Grades": "B"
+ }
+ {
+  "Name": "Asif Mailk",
+  "Roll_no": 5,
+  "Phone_no": 9876543210,
+  "Address": "Pune, Maharashtra",
+  "School": "Delhi Public School,Mumbai",
+  "Grades": "B+"
+ }
+ {
+  "Name": "Nakul Sharma",
+  "Roll_no": 6,
+  "Phone_no": 9623145006,
+  "Address": "Kanpur, Uttar Pradesh",
+  "School": "Delhi Public School,Mumbai",
+  "Grades": "C+"
+ }
+ {
+  "Name": "Parush Gupta",
+  "Roll_no": 7,
+  "Phone_no": 7798034221,
+  "Address": "Kolkata, West Bengal",
+  "School": "Delhi Public School,Mumbai",
+  "Grades": "D"
+ }
+ {
+  "Name": "Viniak Dev Gupta",
+  "Roll_no": 8,
+  "Phone_no": 8865400123,
+  "Address": "Ahmedabad, Gujarat",
+  "School": "Delhi Public School,Mumbai",
+  "Grades": "A+"
+ }
+ {
+  "Name": "Anil Kumar Sharma",
+  "Roll_no": 9,
+  "Phone_no": 7653400912,
+  "Address": "Kanpur, Uttar Pradesh",
+  "School": "Delhi Public School,Mumbai",
+  "Grades": "A"
+ }
+ {
+  "Name": "Charanjeev Singh",
+  "Roll_no": 10,
+  "Phone_no": 7654321099,
+  "Address": "Andheri, Mumbai, Maharashtra",
+  "School": "Delhi Public School,Mumbai",
+  "Grades": "B"
+ }
+ {
+  "Name": "Tushyuanka Sharma",
+  "Roll_no": 11,
+  "Phone_no": 9523410055,
+  "Address": "Ahmedabad, Gujarat",
+  "School": "Delhi Public School,Mumbai",
+  "Grades": "C+"
+ }
+ {
+  "Name": "Priyanshi Mishra",
+  "Roll_no": 12,
+  "Phone_no": 9423780717,
+  "Address": "Jodhpur, Rajasthan",
+  "School": "Delhi Public School,Mumbai",
+  "Grades": "D"
+ }
+ {
+  "Name": "Sameer Sonone",
+  "Roll_no": 13,
+  "Phone_no": 9654321098,
+  "Address": "Kandi, Telangana",
+  "School": "Delhi Public School,Mumbai",
+  "Grades": "A"
+ }
+ {
+  "Name": "Zaid Mushtaq",
+  "Roll_no": 14,
+  "Phone_no": 7020944123,
+  "Address": "Kolkata, West Bengal",
+  "School": "Delhi Public School,Mumbai",
+  "Grades": "F"
+ }
+ {
+  "Name": "Suraj Raina",
+  "Roll_no": 15,
+  "Phone_no": 7982345009,
+  "Address": "Pune, Maharashtra",
+  "School": "Delhi Public School,Mumbai",
+  "Grades": "F"
+ }
+ {
+  "Name": "Abhinav Goswami",
+  "Roll_no": 16,
+  "Phone_no": 9876543211,
+  "Address": "Boriwali, Mumbai, Maharashtra",
+  "School": "Delhi Public School,Mumbai",
+  "Grades": "D"
+ }
+ {
+  "Name": "Neha Patel",
+  "Roll_no": 17,
+  "Phone_no": 8888111234,
+  "Address": "Jodhpur, Rajasthan",
+  "School": "Delhi Public School,Mumbai",
+  "Grades": "C+"
+ }
+ {
+  "Name": "Rahul Koul",
+  "Roll_no": 18,
+  "Phone_no": 7340121190,
+  "Address": "Chennai, Tamil Nadu",
+  "School": "Delhi Public School,Mumbai",
+  "Grades": "A"
+ }
+ {
+  "Name": "Anusha Grover",
+  "Roll_no": 19,
+  "Phone_no": 7024121190,
+  "Address": "Kharagpur, West Bengal",
+  "School": "Delhi Public School,Mumbai",
+  "Grades": "B"
+ }
+ {
+  "Name": "Rajni Gulati",
+  "Roll_no": 20,
+  "Phone_no": 8654321098,
+  "Address": "Kandi, Telangana",
+  "School": "Delhi Public School,Mumbai",
+  "Grades": "A"
+ }
+ {
+  "Name": "Sakshi Peer",
+  "Roll_no": 21,
+  "Phone_no": 9340121190,
+  "Address": "Jodhpur, Rajasthan",
+  "School": "Delhi Public School,Mumbai",
+  "Grades": "D"
+ }
+ {
+  "Name": "Anuj Kashyap",
+  "Roll_no": 22,
+  "Phone_no": 7892341150,
+  "Address": "Hauz Khas, New Delhi, Delhi",
+  "School": "Delhi Public School,Mumbai",
+  "Grades": "B+"
+ }
+ {
+  "Name": "Gunjan Singh",
+  "Roll_no": 23,
+  "Phone_no": 7654322097,
+  "Address": "Ahmedabad, Gujarat",
+  "School": "Delhi Public School,Mumbai",
+  "Grades": "F"
+ }
+ {
+  "Name": "Aditya Singh",
+  "Roll_no": 24,
+  "Phone_no": 9012345612,
+  "Address": "Kolkata, West Bengal",
+  "School": "Delhi Public School,Mumbai",
+  "Grades": "A+"
+ }
+ {
+  "Name": "Anushri Sharma",
+  "Roll_no": 25,
+  "Phone_no": 9867543210,
+  "Address": "Chennai, Tamil Nadu",
+  "School": "Delhi Public School,Mumbai",
+  "Grades": "A"
+ }
+ {
+  "Name": "Ramya Bhalla",
+  "Roll_no": 26,
+  "Phone_no": 8940121190,
+  "Address": "Khau galli, New Delhi, Delhi",
+  "School": "Delhi Public School,Mumbai",
+  "Grades": "F"
+ }
+ {
+  "Name": "Abhilasha Shah",
+  "Roll_no": 27,
+  "Phone_no": 7823100934,
+  "Address": "Pune, Maharashtra",
+  "School": "Delhi Public School,Mumbai",
+  "Grades": "B"
+ }
+ {
+  "Name": "Raksha Tiwari",
+  "Roll_no": 28,
+  "Phone_no": 9340121191,
+  "Address": "Kharagpur, West Bengal",
+  "School": "Delhi Public School,Mumbai",
+  "Grades": "C"
+ }
+ {
+  "Name": "Tara Sharma",
+  "Roll_no": 29,
+  "Phone_no": 9012387645,
+  "Address": "Kandi, Telangana",
+  "School": "Delhi Public School,Mumbai",
+  "Grades": "C"
+ }
+ {
+  "Name": "Chinmayee Borde",
+  "Roll_no": 30,
+  "Phone_no": 9340121188,
+  "Address": "Chembur, Mumbai, Maharashtra",
+  "School": "Delhi Public School,Mumbai",
+  "Grades": "B"
+ }
+ {
+  "Name": "Anurag Singhaniya",
+  "Roll_no": 31,
+  "Phone_no": 8340121190,
+  "Address": "Kanpur, Uttar Pradesh",
+  "School": "Delhi Public School,Mumbai",
+  "Grades": "C"
+ }
+ {
+  "Name": "Anil Gandhi",
+  "Roll_no": 32,
+  "Phone_no": 9876543511,
+  "Address": "Rajesh Nagar, New Delhi, Delhi",
+  "School": "Delhi Public School,Mumbai",
+  "Grades": "D"
+ }
+ {
+  "Name": "Aditya Sharma",
+  "Roll_no": 33,
+  "Phone_no": 9900332211,
+  "Address": "Kharagpur, West Bengal",
+  "School": "Delhi Public School,Mumbai",
+  "Grades": "A"
+ }
+ {
+  "Name": "Muskan Sethiya",
+  "Roll_no": 34,
+  "Phone_no": 8883455601,
+  "Address": "Kharagpur, West Bengal",
+  "School": "Delhi Public School,Mumbai",
+  "Grades": "A"
+ }
+ {
+  "Name": "Dev Malhotra",
+  "Roll_no": 35,
+  "Phone_no": 7890312451,
+  "Address": "Jodhpur,Rajasthan",
+  "School": "Delhi Public School,Mumbai",
+  "Grades": "A"
+ }
